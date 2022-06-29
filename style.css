@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(14,46,38);
-    color: #ffff;
+    background-color: #000;
+    color: #fff;
     font-family: sans-serif;
 }
 ul{
@@ -85,12 +85,12 @@ span{
 }
 
  .does h5{
-     color:  rgb(10, 73, 57);
+     color: #fff;
      font-size: 47px;
      padding-left: 7%;
  }
  .does h3{
-    color: rgb(12, 88, 69);
+    color: #fff;
     font-size: 19px;
     margin-left: 58.5%;
     display: flex;
@@ -98,82 +98,44 @@ span{
     margin-top: -10%;
  }
  .sec-two{
-    background-color:  rgb(207, 197, 164);
-    padding-top: 5%; 
-    padding-bottom: 8%;
+    background-color: rgb(39, 38, 38);
+    padding-top: 2%; 
+    padding-bottom: 5%;
  }
- .row1 p{
+ .row1 a{
     color: #fff;
+    text-decoration: none;
+    font-size: 30px;
  }
- .row2 p{
+ .row2 a{
     color: #fff;
+    text-decoration: none;
+    font-size: 30px;
  }
  .row1 h5 img{
     margin: -20px -15px;
  }
  .row1 .box1a{
-    height: 290px;
-    width: 320px; 
     margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
+    margin-top: 3%;
  }
  .row1 .box1b{
-    height: 290px;
-    width: 320px; 
     margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
+    margin-top: 3%;
  }
- .row1 .box1c{
-    height: 290px;
-    width: 320px; 
-    margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
- }
+
  .row1{
      display: flex;
  }
  .row2 .box2a{
-    height: 290px;
-    width: 320px; 
     margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
+    margin-top: 3%;
  }
  .row2 .box2b{
-    height: 290px;
-    width: 320px; 
     margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
+    margin-top: 3%;
  }
- .row2 .box2c{
-    height: 290px;
-    width: 320px; 
-    margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
- }
+
  .row2{
      display: flex;
  }
@@ -196,7 +158,7 @@ span{
      border-radius: 13px;
  }
  .best-vet h1{
-    background-color: #00a3a3;
+    background-color: rgb(10, 73, 57);
     opacity: 0.4;
     color: #fff;
     font-size: 50px;
@@ -228,34 +190,33 @@ span{
       /* position: absolute; */
  }
  .sec-four{
-     padding-top: 7.5%;
-     background-color: #f3fdfd;
+     padding-top: 2%;
+     background-color: rgb(39, 38, 38);
+ }
+ .sec-four h5{
+    font-size: 30px;
+    color: #000;
  }
  .said h5{
-    color:  rgb(25, 88, 77);
+    color: #fff;
     font-size: 45px;
-    padding-left: 7%;
 }
 .said h3{
-   color: rgb(142, 140, 148);
+   color: #fff;
    font-size: 19px;
    margin-left: 59.5%;
    display: flex;
    margin-right: 10%;
    margin-top: -10%;
 }
-.qualified h5{
-    color: rgb(43, 42, 46);
-    font-size: 40px;
-    padding-left: 7%;
-    margin-top: -4%;
+.said h3 span a{
+    color: rgb(218, 34, 224);
+    text-decoration: none;
 }
-.qualified h3{
-   color: #00a3a3;
-   font-size: 19px;
-   display: flex;
-   margin: -8% 10% 0% 81.5%;
+.said h3 span a :hover{
+    color: #e7feff;
 }
+
 .row3{
     display: flex;
     padding-bottom: 10%;
@@ -266,7 +227,7 @@ span{
     margin-right: 0.1%;
     margin-top: 1%;
     border: 2px solid;
-    background-color: white;
+    background-color: rgb(164, 207, 199);
     border: none;
  }
  .row3 .box3b{
@@ -275,250 +236,29 @@ span{
     margin-left: 0.1%;
     margin-top: 1%;
     border: 2px solid;
-    background-color: white;
+    background-color: rgb(164, 207, 199);
     border: none;
  }
- .row4{
-     display: flex;
- }
- .row4 .box4a{
-    height: 370px;
-    width: 320px; 
-    margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color: rgb(233, 229, 229);
-    border: none;
-    border-radius: 13px;
- }
- .row4 .box4a h1{
-    margin-left: -65%;
-    margin-top: 4%;
- }
- .row4 .box4b{
-    height: 370px;
-    width: 320px; 
-    margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color: rgb(247, 206, 245);
-    border: none;
-    border-radius: 13px;
- }
- .row4 .box4b h2{
-    margin-left: -65%;
-    margin-top: 4%;
- }
- .row4 .box4c{
-    height: 370px;
-    width: 320px; 
-    margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color:  rgb(164, 207, 199);
-    border: none;
-    border-radius: 13px;
- }
- .row4 .box4c h3{
-    margin-left: -43%;
-    margin-top: 4%;
- }
-.row4 h5{
-    font-size: 20px;
-    color: rgb(43, 42, 46);
-}
-.row4 {
-    padding-bottom: 90px;
-}
-.search-bar{
-    height: 250px;
-    width: 1000px; 
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 6%;
-    border: 2px solid;
-    background-color: #E9FAFC;
-    border: none;
-    padding: 70px 70px 20px 70px;
-    border-radius: 5px;
-}
-.search-bar h3{
-    font-size: 50px;
-    color: rgb(43, 42, 46);
-    padding-left: 19%;
-    display: flex;
-    margin: 0px 247px 0px 0px;
-}
-.bar1{
-    height: 50px;
-    width: 600px; 
-    margin-left: 10%;
-    margin-top: 1%;
-    border: 2px solid;
-    background-color: white;
-    border: none;
-    padding: 20px 30px 50px 150px;
-    border-radius: 5px;
-}
-.bar1 button{
-    padding: 1.8% 5%;
-    background-color: #00a3a3;
-    font-size: 19px;
-    color: #e7feff;
-    border-radius: 15px;
-    border: none;
-    margin: -10px -170px 0px 60px;
-    padding: 20px 50px 20px 50px;
- }
- .box1a button{
-     font-size: 40px;
-     margin: 45px 0px 0px 21px;
-     border-radius: 360px;
-     border: none;
-     background-color:  #E9FAFC;
-     
+ 
+ .best-vet a{
+    text-decoration: none;
+    color: #fff;
  }
 
- .box1a h4{
-    font-size: 23px;
-    margin: 45px 0px 0px 21px;
-    color: rgb(43, 42, 46);
- }
- .box1a h5{
-    font-size: 15px;
-    margin: 0px 0px 0px 25px;
-    color: rgb(142, 140, 148);
- }
- .box1b button{
-    font-size: 40px;
-    margin: 45px 0px 0px 21px;
-    border-radius: 360px;
-    border: none;
-    background-color:  #E9FAFC;
-    
-}
-.box1b h4{
-   font-size: 23px;
-   margin: 45px 0px 0px 21px;
-   color: rgb(43, 42, 46);
-}
-.box1b h5{
-   font-size: 15px;
-   margin: 0px 0px 0px 25px;
-   color: rgb(142, 140, 148);
-}
-.box1c button{
-    font-size: 40px;
-    margin: 45px 0px 0px 21px;
-    border-radius: 360px;
-    border: none;
-    background-color:  #E9FAFC;
-    
-}
-.box1c h4{
-   font-size: 23px;
-   margin: 45px 0px 0px 21px;
-   color: rgb(43, 42, 46);
-}
-.box1c h5{
-   font-size: 15px;
-   margin: 0px 0px 0px 25px;
-   color: rgb(142, 140, 148);
-}
-.box2a button{
-    font-size: 40px;
-    margin: 45px 0px 0px 21px;
-    border-radius: 360px;
-    border: none;
-    background-color:  #E9FAFC; 
-}
-.box2a h4{
-   font-size: 23px;
-   margin: 45px 0px 0px 21px;
-   color: rgb(43, 42, 46);
-}
-.box2a h5{
-   font-size: 15px;
-   margin: 0px 0px 0px 25px;
-   color: rgb(142, 140, 148);
-}
-.box2b button{
-    font-size: 40px;
-    margin: 45px 0px 0px 21px;
-    border-radius: 360px;
-    border: none;
-    background-color:  #E9FAFC;
-    
-}
-.box2b h4{
-   font-size: 23px;
-   margin: 45px 0px 0px 21px;
-   color: rgb(43, 42, 46);
-}
-.box2b h5{
-   font-size: 15px;
-   margin: 0px 0px 0px 25px;
-   color: rgb(142, 140, 148);
-}
-.box2c button{
-    font-size: 40px;
-    margin: 45px 0px 0px 21px;
-    border-radius: 360px;
-    border: none;
-    background-color:  #E9FAFC;
-    
-}
 
-.box2c h4{
-   font-size: 23px;
-   margin: 45px 0px 0px 21px;
-   color: rgb(43, 42, 46);
-}
-.box2c h5{
-   font-size: 15px;
-   margin: 0px 0px 0px 25px;
-   color: rgb(142, 140, 148);
-}
-
-
-.box3a .foot-pic h4{
-    border-radius: 20px;
-    border: 1px;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: -12%;
-}
-.box3a .foot-pic h2 img{
-    border-radius: 20px;
-    border: 1px;
-    padding-left: 17%;
-    padding-right: 20%;
-}
-
-.box3a h5{
-    font-size: 24px;
-    margin: 0px 0px 0px 15%;
-    color: rgb(43, 42, 46);
- }
 .box3a h4{
     font-size: 20px;
-    margin: 45px 0px 0px 15%;
+    margin: 45px 0px 0px 30px;
     color: rgb(142, 140, 148);
  }
- .box3b h5{
-    font-size: 24px;
-    margin: -19px 0px 0px 15%;
-    color: rgb(43, 42, 46);
- }
-.box3b h4{
+ .box3b h4{
     font-size: 20px;
-    margin: 45px 0px 0px 15%;
+    margin: 45px 0px 0px 30px;
     color: rgb(142, 140, 148);
  }
+
  .footer{
     display: flex;
-    margin-top: 8%;
-    margin-bottom: 8%;
 } 
 .foot4{
     padding-left: 17%;
