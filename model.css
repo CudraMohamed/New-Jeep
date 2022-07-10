@@ -30,11 +30,11 @@ nav ul li a{
     color: #000;
 }
 a:hover{
-    color: rgb(111, 247, 213);
+    color: rgb(50, 228, 213);
 }
 #logo{
     margin-top: -50px;
-    background-color: rgb(164, 207, 199);
+    background-color: rgb(207, 81, 218);
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -44,7 +44,7 @@ h1{
     color:rgb(60, 236, 192);
 }
 span{
-    color: rgb(218, 34, 224);
+    color: rgb(224, 34, 208);
     font-size: 30px;
 }
   .note{
@@ -55,7 +55,7 @@ span{
 }
 
   .note h1{
-      background-color:  rgb(164, 207, 199);
+      background-color:  rgb(5, 5, 5);
       font-size: 19px;
       color: #000;
       border-radius: 15px;
@@ -65,7 +65,7 @@ span{
   } 
   .note h1 a{
     text-decoration: none;
-    
+    color: rgb(19, 236, 236);
   }
 .jeep img{
     height: 500px;
@@ -73,12 +73,36 @@ span{
    margin: -200px 0px 0px 90px;
 }
 .sec-one{
-    background-image: url("img15.jpg");
+    background-image: url("concept.png");
     background-size: cover;
     padding-bottom: 100px;
     padding-top: 50px;
     margin-top: -10px;
     height: 500px;
+}
+.mySlides h4{
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+.sec-three{
+    display: flex;
+    margin:75px;
+}
+.sec-threeB{
+    display: flex;
+    margin: 75px;
+}
+.section-three{
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+ .mercedes{
+    margin-left: 50px;
+}
+.lamborghini{
+    margin-left: 50px;
 }
 
 
